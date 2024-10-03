@@ -1,0 +1,255 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #45a049; /* Smoother green */
+    color: white;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.top-nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top-nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.top-nav .nav-links li {
+    margin-left: 20px;
+}
+
+.top-nav .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    margin-left: 250px; /* Space for the sign-in container */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Sign In Styles */
+.sign-in-container {
+    position: relative; /* Fix position */
+    left: 20px; /* Positioning from left */
+    top: -1270px; /* Adjust this value based on the welcome-section height */
+    background-color: #fff; /* White background */
+    border: 2px solid #45a049; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: 250px; 
+}
+
+.sign-in-form {
+    text-align: left; /* Align text to the left */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.form-input {
+    width: 100%; /* Make inputs fill the container */
+    padding: 10px; /* Add padding for comfort */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.sign-in-button {
+    background-color: #45a049; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+.sign-in-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+    border: 2px solid #45a049; /* Green border */
+    border-radius: 10px; /* Slightly larger radius for a softer look */
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    margin: 20px auto; /* Center the section */
+    max-width: 1200px; /* Limit width for better readability */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Allow the welcome section to take the remaining space */
+}
+
+.welcome-section h2 {
+    color: #45a049; /* Match header color to border */
+    margin-bottom: 20px;
+    text-align: center; 
+    font-size: 28px; /* Larger font size for emphasis */
+}
+
+.welcome-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.benefits-list {
+    flex: 1; /* Allow the benefits list to take available space */
+    margin-right: 20px; /* Space between text and image */
+}
+
+.benefit-item {
+    background-color: #f9f9f9; /* Light background for benefit items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.benefit-item h3 {
+    color: #45a049; /* Header color for each benefit */
+    margin-bottom: 8px; /* Space below the header */
+}
+
+.call-to-action {
+    font-weight: bold;
+    text-align: center; /* Center align the call to action */
+    margin: 20px 0; /* Add space around it */
+    font-size: 18px; /* Slightly larger for emphasis */
+}
+
+.welcome-image {
+    max-width: 600px; /* Set a max width for the image */
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.welcome-image img {
+    width: 100%; /* Make image fill the container */
+    height: 550px; /* Ensure image maintains its aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.additional-info {
+    text-align: center; /* Center align the new content */
+    margin-top: 20px; /* Space above the new section */
+}
+
+.additional-info h3 {
+    color: #45a049; /* Match color to theme */
+    margin-bottom: 10px; /* Space below the new heading */
+    font-size: 24px; /* Increase font size for emphasis */
+}
+
+.additional-info p {
+    margin-bottom: 15px; /* Space below the paragraph */
+    font-size: 16px; /* Increase font size for clarity */
+}
+
+.join-now {
+    background-color: #45a049; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+.join-now:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Post Styles */
+.post {
+    border: 2px solid black; /* Black border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center align items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for smooth effect */
+}
+
+.post:hover {
+    transform: scale(1.05); /* Slightly enlarge the post on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.profile-pic {
+    margin-right: 20px; /* Space between profile pic and content */
+}
+
+.profile-pic img {
+    border-radius: 50%; /* Round profile picture */
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+}
+
+.post-content {
+    text-align: left; /* Align text to left */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bottom-nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bottom-nav .nav-links li {
+    margin: 0 15px;
+}
+
+.bottom-nav .nav-links a {
+    color: white;
+    text-decoration: none;
+}
